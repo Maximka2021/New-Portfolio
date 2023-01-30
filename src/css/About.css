@@ -1,0 +1,64 @@
+.about-main{
+    width: 100%;
+    min-height: 160vh;
+    height: auto;
+    padding: 1% 15% 0% 15%;
+}
+
+.about-header{
+    font-size: 4rem;
+}
+
+.par-1{
+    font-size: 1.7rem;
+}
+
+.skills-header{
+    font-size: 3rem;
+    padding-top: 3%;
+}
+
+.skills{
+    font-size: 1.7rem;
+    padding: 1.5% 0% 2% 0%;
+}
+
+.links-header{
+    font-size: 3rem;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.links-holder{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+    color: #2F8F9D;
+    text-decoration: none;
+    margin: 10%;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width:  425px){
+
+    .link{
+        font-size: 1rem;
+    }
+
+    .skills-header{
+        font-size: 1.8rem;
+    }
+
+    .skills{
+        font-size: 1.3rem;
+    }
+
+    .links-header{
+        font-size: 1.8rem;
+    }
+}
