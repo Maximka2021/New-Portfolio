@@ -1,0 +1,122 @@
+body{
+    overflow-x: hidden;
+}
+
+.project-main{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: #000;
+}
+
+.projects-container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-holder{
+    width: 30%;
+    min-height: 25vw;
+    height: auto;
+    margin: 1%;
+    background-color: rgb(37, 37, 37);
+}
+
+.image-holder{
+    width: 100%;
+    height: 17vw;
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.desc-holder{
+    width: 100%;
+    height: 7vw;
+}
+
+.project-name{
+    padding: 1.5%;
+}
+
+.project-desc{
+    padding: 1.5%;
+}
+
+.project-image{
+    width: 100%;
+    height: 17vw;
+}
+
+.button-holder{
+    width: 100%;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-button{
+    margin: 0% 10%;
+    padding: 3% 6%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:  768px) {
+    .projects-container{
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-holder{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .project-holder{
+        width: 80%;
+        height: auto;
+        min-height: 80vh;
+    }
+
+    .project-image{
+        width: 100%;
+        height: 35vw;
+    }
+
+    .image{
+        height: auto;
+    }
+
+    .desc-holder{
+        width: 100%;
+        height: auto;
+        min-height: 7vw;
+    }
+
+    .project-name{
+        padding-top: 7%;
+    }
+
+    .button-holder{
+        width: 100%;
+        height: auto;
+        min-height: 7vw
+    }
+
+    .project-button{
+        margin: 0% 10%;
+        padding: 3% 6%;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+}

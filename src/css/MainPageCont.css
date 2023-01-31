@@ -8,13 +8,15 @@
 
 body{
     font-family: 'Playfair Display', serif;
-    color: #2F8F9D;
+    color: #fff;
 }
 
 .main-div{
     width: 100%;
-    height: 70vh;
+    min-height: 100vh;
+    height: auto;
     display: flex;
+    background-color: #000;
 }
 
 .intro-div{
@@ -45,7 +47,7 @@ body{
     height: 40vh;
     margin: 15% 0% 0% 8%;
     border-radius: 50%;
-    border: .5rem #2F8F9D dotted;
+    border: .5rem #fff dotted;
 }
 
 @media only screen and (max-width:  768px) {
@@ -68,5 +70,11 @@ body{
         width: 100%;
         height: auto;
         border: .3rem #2F8F9D dotted;
+    }
+}
+
+@media only screen and (max-width:  426px) {
+    .name-text{
+        font-size: 2rem;
     }
 }

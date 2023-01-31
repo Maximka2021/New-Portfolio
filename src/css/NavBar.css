@@ -8,7 +8,7 @@
     width: 100%;
     height: 15vh;
     display: flex;
-    background-color: #B3E8E5;
+    background-color: #000;
 }
 
 .my-name{
@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #2F8F9D;
+    color: #fff;
 }
 
 .nav-options{
@@ -32,7 +32,7 @@
     margin: 7%;
     cursor: pointer;
     font-size: 1.5rem;
-    color: #2F8F9D;
+    color: #fff;
     display: inline-block;
     position: relative;
 }
@@ -45,7 +45,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #2F8F9D;
+    background-color: #fff;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -94,7 +94,7 @@
         padding: 0;
         width: 30px;
         height: 4px;
-        background-color: #1e5d67;
+        background-color: #fff;
         display: block;
         border-radius: 4px;
         transition: all 0.4s ease-in-out;
@@ -166,7 +166,7 @@
     .mobile-nav-option{
         font-size: 2rem;
         margin: 5%;
-        color:#B3E8E5
+        color:#fff
     }
     
 }

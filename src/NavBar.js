@@ -7,6 +7,7 @@ function NavBar(){
     const navigate = useNavigate()
 
     const handleAbout = () => navigate('/about')
+    const handleProjects = () => navigate('/project')
 
     const [navDiv, setNavDiv] = useState(false)
 
@@ -17,7 +18,7 @@ function NavBar(){
             </div>
             <div className="nav-options">
                 <p className="nav-option" onClick={handleAbout}>About</p>
-                <p className="nav-option">Projects</p>
+                <p className="nav-option" onClick={handleProjects}>Projects</p>
                 <p className="nav-option">Blogs</p>
                 <p className="nav-option">Contact</p>
 

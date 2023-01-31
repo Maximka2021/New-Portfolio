@@ -3,6 +3,7 @@
     min-height: 160vh;
     height: auto;
     padding: 1% 15% 0% 15%;
+    background-color: #000;
 }
 
 .about-header{
@@ -38,7 +39,7 @@
 }
 
 .link{
-    color: #2F8F9D;
+    color: #fff;
     text-decoration: none;
     margin: 10%;
     font-size: 1.5rem;
