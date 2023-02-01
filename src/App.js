@@ -3,6 +3,7 @@ import About from "./About";
 import MainPage from "./MainPage";
 import NavBar from "./NavBar";
 import Project from "./Project";
+import Blogs from "./Blogs";
 import { Route, useLocation } from "react-router-dom"
 import SlideRoutes from 'react-slide-routes';
 
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" element={<MainPage />} />
             <Route path="/about" element={<About />} />
             <Route path="/project" element={<Project />}/>
+            <Route path="/blogs" element={<Blogs />}/>
         </SlideRoutes>
     </div>
   );

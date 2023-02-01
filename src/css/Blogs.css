@@ -1,0 +1,47 @@
+.main-blogs{
+    width: 100%;
+    min-height: 85vh;
+    height: auto;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-container{
+    width: 60%;
+    min-height: 6vw;
+    height: auto;
+    background-color: grey;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.blog-header{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.blog-desc{
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width:  426px) {
+    
+    .blog-container{
+        width: 90%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .blog-header{
+        font-size: 1.5rem;
+    }
+
+    .blog-desc{
+        font-size: 1.3rem;
+    }
+}

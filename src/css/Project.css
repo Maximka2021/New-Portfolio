@@ -120,3 +120,14 @@ body{
         cursor: pointer;
     }
 }
+
+@media only screen and (max-width:  426px) {
+    .project-image{
+        width: 100%;
+        height: 60vw;
+    }
+
+    .button-holder{
+        margin-top: 5vh;
+    }
+}

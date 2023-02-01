@@ -8,6 +8,7 @@ function NavBar(){
 
     const handleAbout = () => navigate('/about')
     const handleProjects = () => navigate('/project')
+    const handleBlogs = () => navigate('/blogs')
 
     const [navDiv, setNavDiv] = useState(false)
 
@@ -19,7 +20,7 @@ function NavBar(){
             <div className="nav-options">
                 <p className="nav-option" onClick={handleAbout}>About</p>
                 <p className="nav-option" onClick={handleProjects}>Projects</p>
-                <p className="nav-option">Blogs</p>
+                <p className="nav-option" onClick={handleBlogs}>Blogs</p>
                 <p className="nav-option">Contact</p>
 
                 <input type="checkbox" id="checkbox1" className="checkbox1 visuallyHidden"/>
