@@ -7,7 +7,7 @@ function Project(){
             <div className="projects-container">
                 <div className="project-holder">
                     <div className="image-holder">
-                        <img className="project-image" src="https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg" />
+                        <img className="project-image" src="https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg" alt="" />
                     </div>
                     <div className="desc-holder">
                         <h1 className="project-name">Pet Meets Pet</h1>
@@ -21,7 +21,7 @@ function Project(){
 
                 <div className="project-holder">
                     <div className="image-holder">
-                        <img className="project-image" src="https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg" />
+                        <img className="project-image" src="https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg" alt="" />
                     </div>
                     <div className="desc-holder">
                         <h1 className="project-name">Flatiron RPG</h1>
@@ -35,7 +35,7 @@ function Project(){
 
                 <div className="project-holder">
                      <div className="image-holder">
-                        <img className="project-image" src="https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg" />
+                        <img className="project-image" src="https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg" alt="" />
                     </div>
                     <div className="desc-holder">
                         <h1 className="project-name">Discord Clone</h1>

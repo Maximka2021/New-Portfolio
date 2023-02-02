@@ -16,7 +16,7 @@ function About(){
             <p className="skills">4. If I am facing a problem I will try to understand why did that happen and what should I do to prevent similar problems in the future!</p>
             <h1 className="links-header">Links</h1>
             <div className="links-holder">
-                <a className="link" href="https://www.linkedin.com/in/maxim-polyakov/" target="_blank">LinkedIn</a>
+                <a className="link" href="https://www.linkedin.com/in/maxim-polyakov/">LinkedIn</a>
                 <a className="link" href="https://github.com/Maximka2021">GitHub</a>
                 <a className="link" href="https://medium.com/@polyakovmaxim05">Medium</a>
             </div>
