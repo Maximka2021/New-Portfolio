@@ -10,7 +10,7 @@ function MainPageCont(){
                 <p className="intro-text">I'm software engineer based in Florida, United States</p>
             </div>
             <div className="image-div">
-                <img className="image" src="https://st3.depositphotos.com/23594922/31822/v/600/depositphotos_318221368-stock-illustration-missing-picture-page-for-website.jpg" />
+                <img className="image" src="https://ca.slack-edge.com/T02MD9XTF-U043KGD0EV8-55814e8a1d84-512" />
             </div>
         </div>
     )

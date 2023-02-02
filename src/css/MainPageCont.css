@@ -17,6 +17,7 @@ body{
     height: auto;
     display: flex;
     background-color: #000;
+    position: fixed;
 }
 
 .intro-div{
@@ -53,6 +54,7 @@ body{
 @media only screen and (max-width:  768px) {
     .main-div{
         display: flex;
+        display: block;
         flex-direction: column;
     }
 
@@ -63,7 +65,7 @@ body{
     }
 
     .image-div{
-        margin: auto;
+        display: none;
     }
 
     .image{

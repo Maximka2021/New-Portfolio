@@ -6,9 +6,11 @@ import './css/NavBar.css'
 function NavBar(){
     const navigate = useNavigate()
 
+    const handleHome = () => navigate('')
     const handleAbout = () => navigate('/about')
     const handleProjects = () => navigate('/project')
     const handleBlogs = () => navigate('/blogs')
+    const handleContact = () => navigate('/contact')
 
     const [navDiv, setNavDiv] = useState(false)
 
@@ -18,10 +20,11 @@ function NavBar(){
                 {/* <h1>Maxim Polyakov</h1> */}
             </div>
             <div className="nav-options">
+                <p className="nav-option" onClick={handleHome}>Home</p>
                 <p className="nav-option" onClick={handleAbout}>About</p>
                 <p className="nav-option" onClick={handleProjects}>Projects</p>
                 <p className="nav-option" onClick={handleBlogs}>Blogs</p>
-                <p className="nav-option">Contact</p>
+                <p className="nav-option" onClick={handleContact}>Contact</p>
 
                 <input type="checkbox" id="checkbox1" className="checkbox1 visuallyHidden"/>
                  <label htmlFor="checkbox1">
@@ -35,10 +38,11 @@ function NavBar(){
             </div>
             <div className={navDiv ? "mobile-nav" : "hide"}>
                 <div className="mobile-nav-div-list">
+                     <p className="mobile-nav-option" onClick={handleHome}>Home</p>
                     <p className="mobile-nav-option" onClick={handleAbout}>About</p>
-                    <p className="mobile-nav-option">Projects</p>
-                    <p className="mobile-nav-option">Blogs</p>
-                    <p className="mobile-nav-option">Contact</p>
+                    <p className="mobile-nav-option" onClick={handleProjects}>Projects</p>
+                    <p className="mobile-nav-option" onClick={handleBlogs}>Blogs</p>
+                    <p className="mobile-nav-option" onClick={handleContact}>Contact</p>
                 </div>
             </div>
         </div>

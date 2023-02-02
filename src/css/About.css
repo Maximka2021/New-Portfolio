@@ -47,6 +47,10 @@
 
 @media only screen and (max-width:  425px){
 
+    .about-main{
+        z-index: -1;
+    }
+
     .link{
         font-size: 1rem;
     }
