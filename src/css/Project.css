@@ -64,6 +64,8 @@ body{
     border: none;
     outline: none;
     cursor: pointer;
+    text-decoration: none;
+    color: #fff;
 }
 
 

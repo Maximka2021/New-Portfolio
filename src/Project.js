@@ -14,8 +14,8 @@ function Project(){
                         <p className="project-desc">In this project I created a combination of Instagram and Tinder, but for pets.</p>
                     </div>
                     <div className="button-holder">
-                        <button className="project-button">GitHub</button>
-                        <button className="project-button">Demo</button>
+                        <a className="project-button" href="https://github.com/Maximka2021/Pets">GitHub</a>
+                        <a className="project-button" href="https://www.loom.com/share/6c150920da51418da81d18d992c0e236">Demo</a>
                     </div>
                 </div>
 
@@ -28,8 +28,8 @@ function Project(){
                         <p className="project-desc">Here I created a simple RPG game.</p>
                     </div>
                     <div className="button-holder">
-                        <button className="project-button">GitHub</button>
-                        <button className="project-button">Demo</button>
+                        <a className="project-button" href="https://github.com/AngelG-byte/phase-3-sinatra-react-project">GitHub</a>
+                        <a className="project-button" href="https://www.loom.com/share/afb6c2460c6b4368bc2e3df70c3cb5d9">Demo</a>
                     </div>
                 </div>
 
@@ -42,8 +42,8 @@ function Project(){
                         <p className="project-desc">In this project I tried to create a Discord clone</p>
                     </div>
                     <div className="button-holder">
-                        <button className="project-button">GitHub</button>
-                        <button className="project-button">Demo</button>
+                        <a className="project-button" href="https://github.com/Maximka2021/Discord-Clone">GitHub</a>
+                        <a className="project-button" href="https://www.loom.com/share/2bd2724d69fa47bd8508def0a153ee72">Demo</a>
                     </div>
                 </div>
             </div>
