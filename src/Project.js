@@ -1,5 +1,8 @@
 import React from "react";
 import './css/Project.css'
+import image1 from "./images/phase-2-project.png"
+import image2 from "./images/phase-3-project.png"
+import image3 from "./images/phase-5-project.png"
 
 function Project(){
     return(
@@ -7,7 +10,7 @@ function Project(){
             <div className="projects-container">
                 <div className="project-holder">
                     <div className="image-holder">
-                        <img className="project-image" src="https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg" alt="" />
+                        <img className="project-image" src={image1} alt="" />
                     </div>
                     <div className="desc-holder">
                         <h1 className="project-name">Pet Meets Pet</h1>
@@ -21,7 +24,7 @@ function Project(){
 
                 <div className="project-holder">
                     <div className="image-holder">
-                        <img className="project-image" src="https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg" alt="" />
+                        <img className="project-image" src={image2} alt="" />
                     </div>
                     <div className="desc-holder">
                         <h1 className="project-name">Flatiron RPG</h1>
@@ -35,7 +38,7 @@ function Project(){
 
                 <div className="project-holder">
                      <div className="image-holder">
-                        <img className="project-image" src="https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg" alt="" />
+                        <img className="project-image" src={image3} alt="" />
                     </div>
                     <div className="desc-holder">
                         <h1 className="project-name">Discord Clone</h1>
