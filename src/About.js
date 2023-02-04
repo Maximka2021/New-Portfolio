@@ -7,7 +7,7 @@ function About(){
             <h1 className="skills-header">About Me</h1>
             <p className="par-1">Hello, my name is Maxim Polyakov, I am 18 years old and in the autumn of 2022, I started attending Flatiron School, and my major is software engineering. After graduation, I am planning to start my career as a Software Engineer.</p>
             <h1 className="skills-header">My Tech Skills</h1>
-            <p className="skills">1. My frontend skills are HTML, CSS, JavaScript, and React.js, Vue.js.</p>
+            <p className="skills">1. My frontend skills are HTML, CSS, JavaScript, React.js, and Vue.js.</p>
             <p className="skills">2. My backend skills are Ruby and Rails, SQL, and Python.</p>
             <h1 className="skills-header">My Soft Skills</h1>
             <p className="skills">1. Problem-solving and patience are my greatest skills which have always led me to success!</p>
